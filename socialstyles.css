@@ -1,0 +1,41 @@
+
+body{
+    background-image: url(socialbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(173, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #2fe438;
+  }
+  .container {
+    display: flex;
+    padding: 14px;
+    flex-direction: row;
+    height: 10cm; /* Set the height as per your requirement */
+    /*border: 1px solid #000; /* Optional: Add border for visualization */
+}
+.content {
+    color: black;
+    flex: 1;
+    /*border-bottom: 1px solid #000; /* Optional: Add border for visualization */
+}  
